@@ -16,7 +16,7 @@ for i in range(x):
             slov[i+1].add(int(j[0]))
 for i in range(x):
     flag=0
-    kash_list=set()
+    kash_list=[]
     old = -1
     for j in slov[i+1]:
         for g in slov[j]:
@@ -29,10 +29,10 @@ for i in range(x):
     for l in kash_slov:
         if kash_slov[l]>old:
             kash_list.clear()
-            kash_list.add(l)
+            kash_list.append(l)
             old=kash_slov[l]
         elif kash_slov[l]==old:
-            kash_list.add(l)
+            kash_list.append(l)
         kash_slov[l]=0
     kash_list=sorted(kash_list)
     print(" ".join(map(str, kash_list)))
