@@ -1,0 +1,14 @@
+﻿  ConsoleApplication1.cpp
+D:\git\trash\c++ projects\saperProject\ConsoleApplication1\ConsoleApplication1.cpp(177,17): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\git\trash\c++ projects\saperProject\ConsoleApplication1\ConsoleApplication1.cpp(191,46): warning C4267: аргумент: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+D:\git\trash\c++ projects\saperProject\ConsoleApplication1\ConsoleApplication1.cpp(192,46): warning C4267: аргумент: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+D:\git\trash\c++ projects\saperProject\ConsoleApplication1\ConsoleApplication1.cpp(237,28): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+  ConsoleApplication1.vcxproj -> D:\git\trash\c++ projects\saperProject\x64\Debug\ConsoleApplication1.exe
